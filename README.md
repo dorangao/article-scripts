@@ -26,3 +26,9 @@ article-title-or-doi/
 
 - Large datasets should be linked or stored externally.
 - Add per-article instructions in each folder's `README.md`.
+
+## Medium Articles
+
+- [Neural Networks, GPT, AGI, and Embeddings: A Beginner’s Guide](https://medium.com/@dorangao/neural-networks-gpt-agi-and-embeddings-a-beginners-guide-78163c71352f)
+  - [Simple Neural Network Demo](gpt/simple_nn_demo.ipynb)
+  - [Text Embeddings Demo](gpt/text_embeddings_demo.ipynb)
