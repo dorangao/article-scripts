@@ -32,3 +32,6 @@ article-title-or-doi/
 - [Neural Networks, GPT, AGI, and Embeddings: A Beginner’s Guide](https://medium.com/@dorangao/neural-networks-gpt-agi-and-embeddings-a-beginners-guide-78163c71352f)
   - [Simple Neural Network Demo](gpt/simple_nn_demo.ipynb)
   - [Text Embeddings Demo](gpt/text_embeddings_demo.ipynb)
+
+- [Hugging Face Transformers v4 vs v5: A Practical Comparison](https://medium.com/@dorangao/hugging-face-transformers-v4-vs-v5-a-practical-comparison-5d29e9c24cf6)
+  - [Transformers v4 vs v5 Comparison Notebook](transformer/transformers_v4_vs_v5_comparison.ipynb)
