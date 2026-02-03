@@ -1,0 +1,7 @@
+test_case,provider,duration,gen_time,rtf,cost,chars,error,audio_path
+neutral_01,OpenAITTS,16.8,3.6571059226989746,4.593796393953354,0.00843,281,,outputs/openaitts_neutral_01.wav
+neutral_01,Qwen3TTS,15.736875,12.917189359664917,1.2182894097023773,0.0,281,,outputs/qwen3tts_neutral_01.wav
+neutral_02,OpenAITTS,12.55,2.536735773086548,4.947302802739252,0.0057,190,,outputs/openaitts_neutral_02.wav
+neutral_02,Qwen3TTS,11.496875,9.432178974151611,1.2188991569717431,0.0,190,,outputs/qwen3tts_neutral_02.wav
+emotion_01,OpenAITTS,9.35,2.2140932083129883,4.222947780560766,0.00408,136,,outputs/openaitts_emotion_01.wav
+emotion_01,Qwen3TTS,8.536875,7.1112823486328125,1.2004691392462101,0.0,136,,outputs/qwen3tts_emotion_01.wav

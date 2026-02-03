@@ -35,3 +35,6 @@ article-title-or-doi/
 
 - [Hugging Face Transformers v4 vs v5: A Practical Comparison](https://medium.com/@dorangao/hugging-face-transformers-v4-vs-v5-a-practical-comparison-5d29e9c24cf6)
   - [Transformers v4 vs v5 Comparison Notebook](transformer/transformers_v4_vs_v5_comparison.ipynb)
+
+- [Bringing AI Voice to the DGX Spark: Qwen3-TTS vs OpenAI's Cloud Voice]()
+  - [Speech Synthesis Comparison Notebook](speech-synthesis-comparison/speech_synthesis_comparison.ipynb)

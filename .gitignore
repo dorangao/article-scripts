@@ -18,3 +18,7 @@ node_modules/
 coverage/
 *.sqlite3
 *.db
+
+models/
+
+=*

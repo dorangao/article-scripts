@@ -1,0 +1,47 @@
+{
+  "neutral_01": {
+    "analysis": {
+      "OpenAITTS": "OpenAITTS has a pitch mean of 143.2 Hz and a standard deviation of 26.7 Hz, indicating moderate pitch variation. The pitch range is 140.5 Hz, which is relatively narrow. The energy mean is 0.0681 with a standard deviation of 0.0507, suggesting some dynamic energy variation. The speaking rate is 2.1 words/sec, which is slightly slower than Qwen3TTS, and the pause ratio is 14.21%, indicating moderate pausing. These features suggest a more controlled and less expressive delivery, which aligns well with a neutral, professional tone.",
+      "Qwen3TTS": "Qwen3TTS has a slightly higher pitch mean of 145.8 Hz with a larger standard deviation of 39.1 Hz and a pitch range of 174.5 Hz, indicating greater pitch variation and expressiveness. The energy mean is lower at 0.0463 with a standard deviation of 0.0372, suggesting less dynamic energy variation compared to OpenAITTS. The speaking rate is faster at 2.3 words/sec, and the pause ratio is higher at 17.34%, indicating more frequent pauses. These features suggest a more dynamic and potentially more expressive delivery, which may slightly deviate from the intended neutral tone."
+    },
+    "ranking": [
+      "OpenAITTS",
+      "Qwen3TTS"
+    ],
+    "reasoning": "OpenAITTS provides a more controlled and less expressive delivery, which aligns better with the intended neutral and professional news anchor tone. Its moderate pitch variation and energy dynamics are suitable for a neutral style. Qwen3TTS, while more expressive, may introduce too much variation for a neutral tone, making it less suitable for the intended style.",
+    "scores": {
+      "OpenAITTS": 8,
+      "Qwen3TTS": 7
+    }
+  },
+  "neutral_02": {
+    "analysis": {
+      "OpenAITTS": "OpenAITTS exhibits a very high pitch standard deviation (581.5 Hz) and an extensive pitch range (2015.5 Hz), suggesting a highly expressive output. However, the pitch mean is quite high (339.1 Hz), which might not align with the neutral tone intended for a clear and methodical explanation. The energy dynamics are moderate, with a mean of 0.0638 and a standard deviation of 0.0525, indicating some variation but not excessive. The speaking rate is slightly slower at 2.4 words/sec, which could aid in clarity, but the high pause ratio (22.07%) might disrupt the flow of speech.",
+      "Qwen3TTS": "Qwen3TTS has a much lower pitch mean (129.8 Hz) and a smaller pitch standard deviation (37.8 Hz), which aligns more closely with a neutral and methodical tone. The pitch range (178.7 Hz) is also more constrained, suggesting a more stable delivery. The energy mean (0.0667) and standard deviation (0.0511) are similar to OpenAITTS, indicating a comparable level of energy variation. The speaking rate is faster at 2.6 words/sec, which may enhance the clarity of the explanation, and the lower pause ratio (14.47%) suggests a smoother delivery."
+    },
+    "ranking": [
+      "Qwen3TTS",
+      "OpenAITTS"
+    ],
+    "reasoning": "Qwen3TTS is better suited for the intended style of speaking clearly and methodically with a neutral tone. Its lower pitch variation and more stable energy dynamics align with the expectations for a neutral delivery. In contrast, OpenAITTS, with its high pitch variability and extensive pitch range, might sound overly expressive and less aligned with the intended clear and methodical style. Additionally, Qwen3TTS's faster speaking rate and lower pause ratio contribute to a more fluid and coherent delivery, which is desirable for explaining technical content.",
+    "scores": {
+      "OpenAITTS": 6,
+      "Qwen3TTS": 8
+    }
+  },
+  "emotion_01": {
+    "analysis": {
+      "OpenAITTS": "OpenAITTS has a moderate pitch mean of 155.6 Hz and a pitch standard deviation of 27.7 Hz, indicating some level of expressiveness but not very high. The pitch range of 160.7 Hz suggests moderate variation, which might not fully convey excitement. The energy mean is 0.0681 with a standard deviation of 0.0545, indicating some dynamic energy patterns. The speaking rate is 2.6 words/sec, which is moderately fast, and the pause ratio is 21.87%, indicating some pauses that might affect the flow of excitement.",
+      "Qwen3TTS": "Qwen3TTS has a higher pitch mean of 254.2 Hz and a pitch standard deviation of 53.4 Hz, indicating a more expressive and varied pitch, which aligns well with excitement. The pitch range of 298.2 Hz is significantly larger, suggesting a more dynamic and enthusiastic delivery. The energy mean is 0.0456 with a standard deviation of 0.0363, which is less dynamic than OpenAITTS. The speaking rate is 2.8 words/sec, which is faster and more suitable for conveying excitement. The pause ratio is 17.96%, which is lower, suggesting a more continuous and fluid delivery."
+    },
+    "ranking": [
+      "Qwen3TTS",
+      "OpenAITTS"
+    ],
+    "reasoning": "Qwen3TTS demonstrates a higher pitch mean and a significantly larger pitch range, which are key indicators of excitement and enthusiasm. Its faster speaking rate and lower pause ratio further contribute to a more excited and continuous delivery, making it more suitable for the intended style. OpenAITTS, while having some dynamic features, does not match Qwen3TTS in terms of expressiveness and naturalness for this specific test case.",
+    "scores": {
+      "OpenAITTS": 7,
+      "Qwen3TTS": 9
+    }
+  }
+}
