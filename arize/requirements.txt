@@ -1,0 +1,9 @@
+arize-phoenix
+arize-phoenix-otel
+openinference-instrumentation-langchain
+langchain
+langchain-openai
+langchain-tavily
+openai
+python-dotenv
+jupyter
