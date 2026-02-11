@@ -38,3 +38,8 @@ article-title-or-doi/
 
 - [Bringing AI Voice to the DGX Spark: Qwen3-TTS vs OpenAI's Cloud Voice]()
   - [Speech Synthesis Comparison Notebook](speech-synthesis-comparison/speech_synthesis_comparison.ipynb)
+
+- [Solo Devs: Build a Local AI Router (OpenAI-Compatible) That Uses OpenClaw and Codex OAuth Instead](https://medium.com/@dorangao/solo-devs-build-a-local-ai-router-openai-compatible-that-uses-openclaw-and-codex-oauth-instead-4eca81d3807e)
+  - [Local AI Routers (Two Approaches)](local-routers/README.md)
+  - [Approach A: OpenClaw Gateway](local-routers/approach-a-openclaw/README.md)
+  - [Approach B: Mini Gateway (Python & Node)](local-routers/approach-b-mini-gateway/README.md)

@@ -1,5 +1,7 @@
 # Local AI Routers (Two Approaches)
 
+**Article:** [Solo Devs: Build a Local AI Router (OpenAI-Compatible) That Uses OpenClaw and Codex OAuth Instead](https://medium.com/@dorangao/solo-devs-build-a-local-ai-router-openai-compatible-that-uses-openclaw-and-codex-oauth-instead-4eca81d3807e)
+
 This folder implements both approaches from the article:
 
 - `approach-a-openclaw/`: Use OpenClaw Gateway as an OpenAI-compatible local router.
